@@ -26,4 +26,34 @@ class SinglyLinkedList {
     this.length++;
     return this;
   }
+
+  pop(val) {
+    (!this.head) && return undefined;
+    var current = this.head;
+    var NewTail = current;
+
+    while (current.next) {
+        newTail = current;
+        current = current.next;
+    }
+    this.tail = newTail;
+    this.tail.next = null;
+    this.length--;
+
+    if (this.length === 0) {
+      this.head = null;
+      this.tail = null;
+    }
+    return current;
+  }
+
+  shift(val) {
+    (!this.head) && return undefined;
+
+    const newHead = this.head.next;
+    this.head = newHead;
+    this.length--;
+
+    return this;
+  }
 }
