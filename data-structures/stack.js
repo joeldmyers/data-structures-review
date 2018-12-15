@@ -1,10 +1,11 @@
 /** Implementation of stack using singly linked list
-/* last in, first out
+/* Last in, first out
 /* Big O -
 /* Insertion - O(1)
 /* Removal - O(1)
 /* Searching - O(N)
 /* Access - O(N)
+/* search and access we probably won't use with this.
 **/
 
 

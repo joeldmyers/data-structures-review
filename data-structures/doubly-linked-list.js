@@ -4,6 +4,7 @@
 /* Searching - O(N)
 /* Access - O(N)
 /* better than singly linked list, but takes more memory
+/* ex. of use case - browser history
 **/
 
 class Node(val) {
