@@ -1,3 +1,11 @@
+/** Big O -
+/* Insertion - O(1)
+/* Removal - O(1)
+/* Searching - O(N)
+/* Access - O(N)
+/* better than singly linked list, but takes more memory
+**/
+
 class Node(val) {
   constructor(val) {
     this.val = val;
