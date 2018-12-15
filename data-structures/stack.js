@@ -1,4 +1,4 @@
-/** Implementation of stack using array
+/** Implementation of stack using singly linked list
 /* last in, first out
 /* Big O -
 /* Insertion - O(1)
