@@ -2,4 +2,22 @@
 
 ## General review of data structures, algorithms and Big O
 
-#### @TODO - go back through older sections that I did not include in this repo (recursion, divide and conquer, sliding window, etc)
+#### This project creates classes for each of the following data structures:
+
+##### Singly Linked list
+
+##### Doubly Linked list
+
+##### Stack
+
+##### Queue
+
+#### It also implements the following sort approaches
+
+##### Bubble sort
+
+##### Insertion sort
+
+##### Selection sort
+
+###### note - this is a work in progress, will be updated with more soon.
