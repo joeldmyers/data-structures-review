@@ -1,3 +1,8 @@
+/** Big O -
+/* Insertion - O(log n)
+/* Searching - O( log n)
+**/
+
 class Node(val) {
   constructor(val) {
     this.val = val;
