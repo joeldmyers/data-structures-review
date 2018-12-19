@@ -38,6 +38,10 @@ class BinarySearchTree {
         } else {
           currentNode = currentNode.right;
         }
+      } else {
+        // equivalent to node, so duplicate
+        console.log('duplicate value');
+        return false;
       }
 
     }
