@@ -12,6 +12,8 @@
 
 ##### Queue
 
+##### Binary Trees
+
 #### It also implements the following sort approaches
 
 ##### Bubble sort
