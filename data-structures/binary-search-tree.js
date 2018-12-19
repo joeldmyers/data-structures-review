@@ -14,7 +14,7 @@ class BinarySearchTree {
   }
 
   insert(val) {
-    var newNode = new Node(val);
+    const newNode = new Node(val);
 
     if (this.root === null) {
       this.root = newNode;
@@ -43,9 +43,25 @@ class BinarySearchTree {
         console.log('duplicate value');
         return false;
       }
-
     }
+  }
 
+  find(val) {
+    (this.root === null) && return false;
+    let currentNode = this.root;
+    let found = false;
+    while(currentNode && !found) {
+      (currentNode.val === val) && return true;
 
+      if (val > currentNode.val) {
+        currentNode = currentNode.right;
+      } else if (val < currentNode.val) {
+        currentNode = currentNode.left;
+      } else {
+        found = true;
+      }
+    }
+    (!found) && return false;
+    return currentNode;
   }
 }
